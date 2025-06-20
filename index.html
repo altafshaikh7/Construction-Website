@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Construction - Building Your Future</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Vision <span>Construction</span></a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#team" class="nav-link">Our Team</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="/signup form/signup.html" class="nav-link btn signup-btn">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+   <!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <img src="/assets/slide photo 1.jpg" alt="Construction Site">
+            <div class="hero-content">
+                <h1>Building Your Vision, Crafting Your Future</h1>
+                <p>We deliver exceptional construction services with quality craftsmanship.</p>
+                <a href="#contact" class="btn">Get a Free Quote</a>
+            </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="slide">
+            <img src="/assets/slide photo 2.jpg" alt="Modern Building">
+            <div class="hero-content">
+                <h1>Innovative Construction Solutions</h1>
+                <p>Cutting-edge techniques for modern structures.</p>
+                <a href="#contact" class="btn">Our Services</a>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide">
+            <img src="/assets/slide photo 3.jpg" alt="Construction Team">
+            <div class="hero-content">
+                <h1>Expert Team of Professionals</h1>
+                <p>Skilled workers dedicated to quality.</p>
+                <a href="#team" class="btn">Meet Our Team</a>
+            </div>
+        </div>
+        
+        <!-- Slide 4 -->
+        <div class="slide">
+            <img src="/assets/slide photo 4.jpg" alt="Completed Project">
+            <div class="hero-content">
+                <h1>Our Award-Winning Projects</h1>
+                <p>See our portfolio of successful constructions.</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </div>
+        
+        <!-- Slide 5 -->
+        <div class="slide">
+            <img src="/assets/slide photo 5.jpg" alt="Construction Equipment">
+            <div class="hero-content">
+                <h1>State-of-the-Art Equipment</h1>
+                <p>Modern machinery for efficient construction.</p>
+                <a href="#equipment" class="btn">Our Equipment</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Slider Controls -->
+    <div class="slider-controls">
+        <span class="prev-slide">&#10094;</span>
+        <span class="next-slide">&#10095;</span>
+    </div>
+    
+    <!-- Slider Indicators -->
+    <div class="slider-indicators">
+        <span class="indicator active" data-slide="0"></span>
+        <span class="indicator" data-slide="1"></span>
+        <span class="indicator" data-slide="2"></span>
+        <span class="indicator" data-slide="3"></span>
+        <span class="indicator" data-slide="4"></span>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="/assets/About us img.jpg"
+                        alt="Construction site">
+                </div>
+                <div class="about-text">
+                    <h3>20+ Years of Building Excellence</h3>
+                    <p>Vision Construction has been a trusted name in the construction industry since 2001. Our team of
+                        skilled professionals is dedicated to delivering high-quality construction projects on time and
+                        within budget.</p>
+                    <p>We take pride in our attention to detail, innovative approach, and commitment to sustainability.
+                        Our portfolio includes residential, commercial, and industrial projects that stand as testaments
+                        to our craftsmanship.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+<section class="equipment" id="equipment">
+    <div class="container">
+        <h2>Our Equipment</h2>
+        <div class="equipment-row">
+            <div class="equipment-item">
+                <img src="/assets/excavator machine.jpg" alt="Excavator">
+                <h3>EXCAVATOR</h3>
+            </div>
+            <div class="equipment-item">
+                <img src="/assets/grader mchine.jpg" alt="Grader">
+                <h3>GRADER</h3>
+            </div>
+            <div class="equipment-item">
+                <img src="/assets/dozer machine.jpg" alt="Dozer">
+                <h3>DOZER</h3>
+            </div>
+            <div class="equipment-item">
+                <img src="/assets/wheel loader.jpg" alt="Wheel Loader">
+                <h3>WHEEL-LOADER</h3>
+            </div>
+            <div class="equipment-item">
+                <img src="/assets/forklift.webp" alt="Forklift">
+                <h3>FORKLIFT</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential Construction</h3>
+                    <p>Custom home building, renovations, and additions tailored to your lifestyle and needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Construction</h3>
+                    <p>Office buildings, retail spaces, and commercial facilities built to impress.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>Industrial Construction</h3>
+                    <p>Warehouses, factories, and industrial complexes designed for efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Renovation Services</h3>
+                    <p>Transform your existing space with our expert renovation and remodeling services.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Design & Planning</h3>
+                    <p>Comprehensive architectural design and project planning services.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sustainable Building</h3>
+                    <p>Eco-friendly construction solutions for a greener future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="/assets/ceo.jpg"
+                        alt="Team member" class="member-img">
+                    <div class="member-info">
+                        <h3>John Smith</h3>
+                        <p>Founder & CEO</p>
+                        <p>25+ years experience in construction management</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/assets/team-4.jpg"
+                        alt="Team member" class="member-img">
+                    <div class="member-info">
+                        <h3>John Aird</h3>
+                        <p>Project Manager</p>
+                        <p>Specializes in commercial construction projects</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/assets/team-2.jpg"
+                        alt="Team member" class="member-img">
+                    <div class="member-info">
+                        <h3>Michael Chen</h3>
+                        <p>Lead Architect</p>
+                        <p>Innovative designs with sustainable solutions</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/assets/team 5.jpg"
+                        alt="Team member" class="member-img">
+                    <div class="member-info">
+                        <h3>Archie Alexander</h3>
+                        <p>Construction Engineer</p>
+                        <p>Ensuring structural integrity and safety</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Live Feed Section -->
+    <section class="live-feed" id="live-feed">
+        <div class="container">
+            <h2>Live Project Updates</h2>
+            <div class="feed-container">
+                <div class="live-camera">
+                    <iframe src="live-camera-feed.html"></iframe>
+                    <div class="timestamp">Live: <span id="live-time"></span></div>
+                </div>
+                <div class="progress-tracker">
+                    <h4>Project Completion</h4>
+                    <div class="progress-bar" style="width: 65%"></div>
+                    <span>65% Complete</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="/assets/Vacation-rental-home.jpg"
+                        alt="Project" class="project-img">
+                    <div class="project-overlay">
+                        <h3>Modern Residence</h3>
+                        <p>A contemporary home with sustainable features</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/office.jpg"
+                        alt="Project" class="project-img">
+                    <div class="project-overlay">
+                        <h3>Office Complex</h3>
+                        <p>Commercial space with modern amenities</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/MNCs Companie.jpg"
+                        alt="Project" class="project-img">
+                    <div class="project-overlay">
+                        <h3>Industrial Facility</h3>
+                        <p>Efficient design for manufacturing needs</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/Retail Space.jpg"
+                        alt="Project" class="project-img">
+                    <div class="project-overlay">
+                        <h3>Retail Space</h3>
+                        <p>Inviting commercial space for businesses</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/renovation.jpg"
+                        alt="Project" class="project-img">
+                    <div class="project-overlay">
+                        <h3>Home Renovation</h3>
+                        <p>Complete transformation of a classic home</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/apartment building.jpg"
+                        alt="Project" class="project-img">
+                    <div class="project-overlay">
+                        <h3>Apartment Building</h3>
+                        <p>Modern multi-family residential complex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                                <div class="calculator">
+                    <h3>Instant Cost Estimate</h3>
+                    <div class="calculator-inputs">
+                        <label>Project Size (sq ft):</label>
+                        <input type="range" id="project-size" min="500" max="5000" step="100" value="1500">
+                        <span id="size-value">1500 sq ft</span>
+                        
+                        <label>Project Type:</label>
+                        <select id="project-type">
+                            <option value="residential">Residential</option>
+                            <option value="commercial">Commercial</option>
+                        </select>
+                    </div>
+                    <div class="calculator-result">
+                        Estimated Cost: <span id="estimate">$150,000</span>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>123 Construction Ave, Builders City, BC 12345</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-phone-alt"></i></span>
+                            <span>(123) 456-7890</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <span>info@visionconstruction.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-clock"></i></span>
+                            <span>Mon-Fri: 8:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- 3D Showcase -->
+<div class="building-showcase">
+    <div class="container">
+        <h2>Explore Our 3D Models</h2>
+        <div id="container"></div>
+        <div id="info">3D Architectural Model<br>Click and drag to rotate<br>Scroll to zoom</div>
+        <div id="controls">
+            <button id="dayBtn">Day Mode</button>
+            <button id="nightBtn">Night Mode</button>
+            <button id="resetBtn">Reset View</button>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Vision Construction</h3>
+                    <p>Building excellence with integrity, quality, and innovation since 2001.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Residential Construction</a></li>
+                        <li><a href="#">Commercial Construction</a></li>
+                        <li><a href="#">Renovations</a></li>
+                        <li><a href="#">Design & Planning</a></li>
+                        <li><a href="#">Sustainable Building</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and projects.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Vision Construction. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+        <script src="index.js"></script>    
+</body>
+
+</html>
